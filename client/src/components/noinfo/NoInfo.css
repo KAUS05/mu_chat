@@ -1,0 +1,34 @@
+.NoInfo{
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NoInfo_content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}
+.NoInfo_content img{
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background-size: cover;
+  background-position: center;
+}
+
+.NoInfo_content p{
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  height: 36px;
+  margin: 0;
+  letter-spacing: normal;
+  color: #5d81ec;
+}
+

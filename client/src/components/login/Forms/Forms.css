@@ -1,0 +1,136 @@
+.middle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.swing {
+  width: 480px;
+  background: transparent;
+  border-radius: 10px;
+}
+.swing div.swing_div {
+  height: auto;
+  padding: 30px 30px;
+}
+.swing_div h1{
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.92;
+  letter-spacing: normal;
+  text-align: center;
+  color: #5d81ec;
+}
+
+.swing_div p{
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #bbbbbb;
+  margin: 15px auto;
+  width: 90%;
+}
+
+
+
+/* form */
+form{
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.label_input:nth-child(2){
+  margin-top: 10px;
+}
+
+
+.label_input input{
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #5d81ec;
+}
+.label_input{
+  position: relative;
+}
+.label_input label{
+  position: absolute;
+  top: 20px;
+  left: 0;
+  pointer-events: none;
+  color: white;
+  transition: .5s;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFFDE;
+  opacity: 1;
+  
+  color: blue;
+
+}
+input:focus ~ label,
+input:valid ~ label{
+  top: -2px;
+  left: 0;
+}
+input:focus,
+input:valid {
+  border-bottom: 1px solid #bbbbbb;
+}
+::placeholder{
+  text-align: center;
+}
+.rem_for{
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center
+}
+
+.rem_for span{
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF99;
+  opacity: 1;
+}
+.rem_for a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  color: #FFFFFF99;
+  opacity: 1;
+}
+
+input[type="submit"]{
+  width: 75%;
+  height: 60px;
+  border: none;
+  outline: none;
+  margin-top: 50px ;
+  cursor: pointer;
+
+  border-radius: 20px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  background-color: #1665d8;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 1.43px;
+  text-align: center;
+  color: #ffffff;
+}

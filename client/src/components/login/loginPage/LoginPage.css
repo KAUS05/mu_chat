@@ -1,0 +1,21 @@
+.LoginPage{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*  */
+.Login_img{
+  width: 50%;
+}
+.Login_img img{
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+/*  */
+.Login_form{
+  width: 50%;
+}

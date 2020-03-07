@@ -1,0 +1,21 @@
+.Slider{
+  margin: 15px 5px;
+}
+.Slider h5{
+  color: #C1C4E1;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.Slider_items img{
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.slick-next:before, .slick-prev:before {
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: #5D81EC;
+}
